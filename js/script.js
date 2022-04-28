@@ -2401,7 +2401,7 @@
 	var loadMusic = function (i) {
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="' + item.mp3 + '"><source src="' + item.ogg + '">').appendTo('#player');
-		item.cover = '.img/tx1.png' 
+		item.cover = 'img/tx1.png' 
 		//动态网页标题-可删
 		$('title').html('💕 '+item.title)
 		$('.cover').html('<img src="' + item.cover + '" alt="' + item.album + '">');
