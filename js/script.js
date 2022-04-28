@@ -2401,21 +2401,7 @@
 	var loadMusic = function (i) {
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="' + item.mp3 + '"><source src="' + item.ogg + '">').appendTo('#player');
-		//自定义封面-可删
-		var Arry = [
-			"https://mmbiz.qpic.cn/mmbiz_png/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvMbBcm1cmiaXSS5sWKFACvWwyVb3fN7TUVhhPk5tzuUNUWGVWbanLW1w/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvxfVd9ZnYOJay5k7iaMARH3fB6bYPYicXdRrDVOB7te85V0YfjCEM7ZFA/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_png/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvcvjzeDiaVcGQGzGh9AqOWx99xL9fVJNRZ9YzyWKsbWiatW1bYDicjbOUw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvVLSibtMvhsZJIlq0yuhZIa4N1GB7PRUu0ia0ttZpx1XibWEchtnG8rt2w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_png/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvoHD9UkwoRp6xt31VoGDtiavI9ibc3yHjYAAhUY0gciaUoe2zIbsg1AAwQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvEcEKH7amIeeLY76UJddb9kXjzgQSMjTzIBf879LSnebqws5O798T9w/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_png/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvdNuibPYh3Z5ziaC1deSmG2MN5BpO1PjE4BVCqkLa034fBibmzxoBRTxMw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONv8JzO35MKOEcD06X5h9ckYBPjAONcTV5ks411t7xiaLloKkYU4zgLJlw/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvu7cWjibnGSBA2FEvFUdSaWFPUibUIU8yQlldicjP33Ywqk9aqCx7TD4oQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_gif/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONv9Uf9pIjKq1icWXYt3F4upVuvHZ14fmotDCiccsCticdWo7zzCrdueTZUQ/640?wx_fmt=gif&wxfrom=5&wx_lazy=1",
-			"https://mmbiz.qpic.cn/mmbiz_jpg/DoUoiceDjsiaTjN3zTWNeazhUCOI3QvONvKRjicWnnV6iaZUiaLkIR5zTxLNMHKCrSIR7Jpj1DN1WYhaPBEqMrtkTVg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1"];
-        var n1 = Math.floor(Math.random() * Arry.length + 1)-1;
-		item.cover = Arry[n1] 
+		item.cover = '.img/tx1.png' 
 		//动态网页标题-可删
 		$('title').html('💕 '+item.title)
 		$('.cover').html('<img src="' + item.cover + '" alt="' + item.album + '">');
