@@ -2029,6 +2029,41 @@
 				cover: "img/tx1.jpg",
 				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-20/你走（片段）.mp3",
 			},
+			{
+				title: "没有你的日子我真的好孤单",
+				artist: "2022-04-20",
+				album: " ",
+				cover: "img/tx1.jpg",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-29/没有你的日子我真的好孤单.mp3",
+			},
+			{
+				title: "空山新雨后",
+				artist: "2022-04-20",
+				album: " ",
+				cover: "img/tx1.jpg",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-29/空山新雨后.mp3",
+			},
+			{
+				title: "鸦雀无声",
+				artist: "2022-04-20",
+				album: " ",
+				cover: "img/tx1.jpg",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-29/鸦雀无声.mp3",
+			},
+			{
+				title: "小鸡哔哔",
+				artist: "2022-04-20",
+				album: " ",
+				cover: "img/tx1.jpg",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-29/小鸡哔哔.mp3",
+			},
+			{
+				title: "老公天下第一",
+				artist: "2022-04-20",
+				album: " ",
+				cover: "img/tx1.jpg",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-04-29/老公天下第一.mp3",
+			},
 
 	];
 
