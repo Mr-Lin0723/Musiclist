@@ -93,12 +93,12 @@ a {
 .bo {
     width: 100%;
     height: 100%;
-    background: url(../../img/2.jpg);
+    background: url("https://imglf4.lf127.net/img/82c748c94a7b823b/N290R250T1d2WVdtMHBjS09HZnR0bnpKMzVKV1FpNUlqWDJaRDQzc0FaST0.jpg");
     position: fixed;
 }
 /*播放器背景*/
 .bo1 {
-    background: url(../../img/1.jpg) no-repeat;
+    background: url("https://imglf3.lf127.net/img/798397ebde712048/N290R250T1d2WVdtMHBjS09HZnR0b1NKSERreW1YMCtMWlBNdnpvR0NQOD0.jpg") no-repeat;
     padding: 14px;
     background-size: cover;
     float: left;
@@ -478,7 +478,7 @@ footer a:hover {
         width: 100%;
         height: auto;
     }
-    /*分隔条*/
+     /*分隔条*/
     #player {
         float: left;
         width: 100%;
