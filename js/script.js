@@ -2213,7 +2213,7 @@
 		var item = playlist[i],
 			newaudio = $('<audio>').html('<source src="' + item.mp3 + '"><source src="' + item.ogg + '">').appendTo('#player');
 		//自定义封面-可删
-		item.cover = 'img/tx1.png' 
+		item.cover = 'https://imglf6.lf127.net/img/91c1bc22383e024d/N290R250T1d2WVdtMHBjS09HZnR0bWxMd0RoUXJ5bitXOTZzcjlFYkdGaz0.png' 
 		//动态网页标题-可删
 		$('title').html('💕 '+item.title)
 		$('.cover').html('<img src="' + item.cover + '" alt="' + item.album + '">');
