@@ -7,6 +7,12 @@
 		autoplay = true,
 		playlist = [
 			{
+				title: "一生所爱",
+				artist: "2022-09-27",
+				album: " ",
+				cover: "https://imglf6.lf127.net/img/91c1bc22383e024d/N290R250T1d2WVdtMHBjS09HZnR0bWxMd0RoUXJ5bitXOTZzcjlFYkdGaz0.png",
+				mp3: "https://mr-lin0723-1309069954.cos.ap-shanghai.myqcloud.com/团团音乐/2022-09-27/一生所爱.mp3",
+			},			{
 				title: "1,2,3,4",
 				artist: "2021-08-30",
 				album: " ",
